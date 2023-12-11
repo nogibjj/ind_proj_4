@@ -19,7 +19,7 @@ jobs:
       uses: docker/login-action@v1
       with:
         username: ${{ secrets.DH_USERNAME }}
-        password: ${{ secrets.DH_LLM_ACCESS }}
+        password: ${{ secrets.DH_ACCESS_TOKEN }}
 
     - name: build and push container to Docker Hub
       uses: docker/build-push-action@v2
@@ -27,4 +27,4 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: markok/local-llm:latest
+        tags: markoke/local-llm:latest
