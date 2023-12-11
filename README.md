@@ -1,5 +1,6 @@
 # Local LLM MODEL DEPLOYMENT
-
+[![Build and deploy to production](https://github.com/nogibjj/ind_proj_4/actions/workflows/azure_registry_main.yml/badge.svg)](https://github.com/nogibjj/ind_proj_4/actions/workflows/azure_registry_main.yml)
+[![Docker Image to Docker Hub](https://github.com/nogibjj/ind_proj_4/actions/workflows/docker-image.yml/badge.svg)](https://github.com/nogibjj/ind_proj_4/actions/workflows/docker-image.yml)
 ## Overview
 This repository showcases a powerful text generation model integrated into a FastAPI microservice. The model, based on OpenAI's GPT-2 architecture, excels in generating coherent and context-aware responses. The FastAPI microservice provides a convenient API for interacting with the model in real-time.
 
