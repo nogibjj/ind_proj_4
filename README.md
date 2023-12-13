@@ -19,3 +19,8 @@ Utilizes FastAPI for efficient and fast API development.User-friendly endpoint f
 
 ## Challenge with Finetuned model
 Deploying the finetuned model posed challenges due to its size, prompting us to explore quantization techniques in the future. This ongoing exploration aims to optimize the model for deployment without compromising its performance, ensuring efficient usage in various applications.
+
+## DEMO VIDEO
+
+You can watch the demo video [here](https://www.youtube.com/watch?v=G_Hsmq0JDqc).
+
